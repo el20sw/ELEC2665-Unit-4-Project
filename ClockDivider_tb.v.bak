@@ -1,0 +1,7 @@
+`timescale 1 ns / 100 ps
+
+module ClockDivider_tb;
+
+	reg clk_50MHz;
+	reg rst_n;
+	wire clk_1Hz;

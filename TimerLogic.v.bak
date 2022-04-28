@@ -1,0 +1,11 @@
+module TimerLogic(
+
+	input clk,	
+	input hold,
+	input rst_n,
+	input [5:0] Qs_set,
+	input [1:0] Qm_set,
+	
+	output reg [5:0] Qs,
+	output reg [1:0] Qm
+);

@@ -1,0 +1,6 @@
+module BCDtoSevenSeg (
+
+	input [3:0] BCD, 				//4 bit BCD input
+	output reg [6:0] SevenSeg	//7 bit 7-segment display control sginal
+	
+);
